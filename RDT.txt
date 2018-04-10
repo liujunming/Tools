@@ -1,0 +1,9 @@
+sudo modprobe msr
+
+---
+reference:
+https://github.com/intel/intel-cmt-cat/wiki/Usage-Examples
+https://github.com/intel/intel-cmt-cat/wiki
+https://github.com/intel/intel-cmt-cat
+
+linuxperformance.top/index.php/archives/21/
