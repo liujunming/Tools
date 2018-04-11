@@ -1,0 +1,5 @@
+top -b -n 2 -d  3 > test.txt
+
+-b: batch模式，可以重定向到文件中
+-n: 一共取2次top数据
+-d: 每次top时间间隔为3秒
