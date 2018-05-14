@@ -1,1 +1,8 @@
 perf stat -e  LLC-load-misses,LLC-store-misses -I 1000 -p pid
+
+
+cd linux/tools/perf
+make
+cp perf /usr/bin
+---
+https://askubuntu.com/questions/50145/how-to-install-perf-monitoring-tool
