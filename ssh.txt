@@ -1,11 +1,11 @@
 ssh test@210.45.114.192 -p 22233 -i ~/.ssh/401server
 
 
-virsh start ljm1   ssh test@192.168.122.161
+virsh start ljm1 && ssh test@192.168.122.161
 
-virsh start ljm2   ssh test@192.168.122.176
+virsh start ljm2 && ssh test@192.168.122.176
 
-virsh start ljm3   ssh test@192.168.122.242
+virsh start ljm3 && ssh test@192.168.122.242
 
 
 
