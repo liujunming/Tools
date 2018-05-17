@@ -5,10 +5,10 @@ virsh start ljm1 && ssh test@192.168.122.161
 /home/test/graph500-2.1.4/seq-csr/seq-csr -s 22 -e 16
 
 virsh start ljm2 && ssh test@192.168.122.176
-
+cd /home/test/linux-4.9.58 && make
 
 virsh start ljm3 && ssh test@192.168.122.242
-cd /home/test/linux-4.9.58 && make
+sysbench --test=cpu --cpu-max-prime=50000 run
 
 
 scp -P 22233 -i ~/.ssh/401server test@210.45.114.192:/var/log/syslog /home/ljm/
