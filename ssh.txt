@@ -8,7 +8,7 @@ virsh start ljm2 && ssh test@192.168.122.176
 
 
 virsh start ljm3 && ssh test@192.168.122.242
-
+cd /home/test/linux-4.9.58 && make
 
 
 scp -P 22233 -i ~/.ssh/401server test@210.45.114.192:/var/log/syslog /home/ljm/
