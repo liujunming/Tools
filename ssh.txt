@@ -6,7 +6,7 @@ virsh start ljm4    ssh test@192.168.122.21
 /home/test/graph500-2.1.4/seq-csr/seq-csr -s 22 -e 16
 
 virsh start ljm2    ssh test@192.168.122.176
-virsh start ljm5   ssh test@192.168.122.104
+virsh start ljm5    ssh test@192.168.122.104
 cd /home/test/linux-4.9.58 && make
 
 virsh start ljm3    ssh test@192.168.122.242
