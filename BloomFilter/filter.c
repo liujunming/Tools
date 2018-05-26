@@ -7,14 +7,16 @@
 #define N 1024*1024*64  //64M bits if we have 16M item, than bits-per-key = 4;
 int bitmap[1 + N/BITSPERWORD]={0};
 
+//set the ith bit to 1
 static void set_bitmap(int i,int a[]) 
 {        
 	a[i>>SHIFT] |= (1<<(i & MASK)); 
 }   
 
+//if the ith bit equals to 1, return 1; otherwise return 0;
 static int  test_bitmap(int i,int a[])
 { 
-	return a[i>>SHIFT] & (1<<(i & MASK)); 
+	return (a[i>>SHIFT] & (1<<(i & MASK))) > 0; 
 }  
 
 static void reset_bitmap(void)
