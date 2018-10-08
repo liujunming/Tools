@@ -9,6 +9,7 @@ To enable THP at run time
 `echo  always > /sys/kernel/mm/transparent_hugepage/enabled`
 
 Check system-wide THP usage
+
 `grep AnonHugePages /proc/meminfo `
   
 
