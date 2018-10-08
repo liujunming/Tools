@@ -1,4 +1,4 @@
-ssh test@210.45.114.192 -p 22233 -i ~/.ssh/401server
+ssh test@210.45.114.192 -p 55566 -i ~/.ssh/401server
 
 
 virsh start ljm1    ssh test@192.168.122.161
