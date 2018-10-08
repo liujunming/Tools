@@ -8,13 +8,8 @@ To enable THP at run time
 
 `echo  always > /sys/kernel/mm/transparent_hugepage/enabled`
 
-How to tell if Explicit HugePages is enabled or disabled
-
- `grep -i HugePages_Total /proc/meminfo`
-- Explicit HugePages DISABLED:
-  - If the value of HugePages_Total is "0" it means HugePages is disabled on the system.
-- Explicit HugePages ENABLED:
-  - If the value of HugePages_Total is greater than "0", it means HugePages is enabled on the system.
+Check system-wide THP usage
+`grep AnonHugePages /proc/meminfo `
   
 
 
