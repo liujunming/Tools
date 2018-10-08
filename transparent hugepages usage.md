@@ -1,6 +1,8 @@
 
+To disable THP at run time
 
-/sys/kernel/mm/transparent_hugepage
+`echo  never > /sys/kernel/mm/transparent_hugepage/enabled`
+
 
 
 ---
