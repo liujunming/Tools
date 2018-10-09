@@ -7,7 +7,7 @@ virsh start ljm4    ssh test@192.168.122.58
 
 virsh start ljm2    ssh test@192.168.122.248
 virsh start ljm5    ssh test@192.168.122.249
-cd /home/test/linux-4.9.58 && make
+cd /home/test/linux-3.14.69 && make
 
 virsh start ljm3    ssh test@192.168.122.62
 virsh start ljm6    ssh test@192.168.122.22
