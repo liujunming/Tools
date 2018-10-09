@@ -9,6 +9,8 @@ index = 1
 for line in data:
     line_data = line.strip()
     words = line.split()
+    if len(words) == 0:
+        continue
     #print(words[0])
     if re.match("^\d+?\.\d+?$", words[0]):
         if index > 500:
@@ -24,6 +26,8 @@ index = 1
 for line in data:
     line_data = line.strip()
     words = line.split()
+    if len(words) == 0:
+        continue
     if re.match("^\d+?\.\d+?$", words[0]):
         if index > 500:
             break
