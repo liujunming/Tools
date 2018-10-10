@@ -40,4 +40,4 @@ while index < 500:
     result.append(load_count[index] + store_count[index])
     index += 1
 
-print(result)
+print('\t'.join(map(str, result)))
