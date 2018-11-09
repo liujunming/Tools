@@ -1,16 +1,16 @@
 ssh test@210.45.114.192 -p 55566 -i ~/.ssh/401server
 
 
-virsh start ljm1    ssh test@192.168.122.140 && /home/test/graph500-2.1.4/seq-csr/seq-csr -s 22 -e 16
-virsh start ljm4    ssh test@192.168.122.58 && /home/test/graph500-2.1.4/seq-csr/seq-csr -s 22 -e 16
+virsh start ljm1    ssh test@192.168.122.140 
+virsh start ljm4    ssh test@192.168.122.58 
 /home/test/graph500-2.1.4/seq-csr/seq-csr -s 22 -e 16
 
-virsh start ljm2    ssh test@192.168.122.248 && cd /home/test/linux-4.9.58 && make
-virsh start ljm5    ssh test@192.168.122.249 && cd /home/test/linux-4.9.58 && make
+virsh start ljm2    ssh test@192.168.122.248 
+virsh start ljm5    ssh test@192.168.122.249 
 cd /home/test/linux-4.9.58 && make
 
-virsh start ljm3    ssh test@192.168.122.62 && sysbench --test=cpu --cpu-max-prime=50000 run
-virsh start ljm6    ssh test@192.168.122.22 && sysbench --test=cpu --cpu-max-prime=50000 run
+virsh start ljm3    ssh test@192.168.122.62 
+virsh start ljm6    ssh test@192.168.122.22 
 sysbench --test=cpu --cpu-max-prime=50000 run
 
 
