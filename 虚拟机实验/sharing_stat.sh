@@ -1,6 +1,7 @@
 #/bin/bash
 a=0
 b=$(rm $1)
+sleep 50
 while :
 do
     a=$(($a+2))
