@@ -1,1 +1,6 @@
 
+turn off ksm:
+echo 0 > /sys/kernel/mm/ksm/run
+
+turn on ksm:
+echo 1 > /sys/kernel/mm/ksm/run
