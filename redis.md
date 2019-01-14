@@ -7,9 +7,6 @@ virsh start ljm7    ssh test@192.168.122.53
 运行：`redis-cli`
 
 
-To remove all the keys of all the existing database, run: `redis-cli FLUSHALL`
-
-
 禁止持久化： /etc/redis/redis.conf https://zhuanlan.zhihu.com/p/20599481
 
 
