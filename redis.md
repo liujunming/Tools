@@ -1,4 +1,5 @@
-virsh start ljm7    ssh test@192.168.122.53
+virsh start ljm7   
+ssh test@192.168.122.53
 
 
 - 安装： 
