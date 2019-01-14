@@ -1,6 +1,7 @@
 安装：
   sudo apt-get install redis-server
-
+运行：
+  redis-cli
 
 ---
 参考资料：
