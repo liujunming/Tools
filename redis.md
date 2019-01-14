@@ -14,6 +14,7 @@ virsh start ljm7    ssh test@192.168.122.53
 - 禁止持久化： 
 
 /etc/redis/redis.conf 
+
 https://zhuanlan.zhihu.com/p/20599481
 
 
