@@ -21,9 +21,9 @@ https://zhuanlan.zhihu.com/p/20599481
 
 - lua脚本运行redis
 
-https://www.cnblogs.com/huangxincheng/p/6230129.html
-https://stackoverflow.com/questions/26934918/lua-script-to-insert-100000-random-keys-on-redis
-https://www.oschina.net/translate/intro-to-lua-for-redis-programmers?print
+  - https://www.cnblogs.com/huangxincheng/p/6230129.html
+  - https://stackoverflow.com/questions/26934918/lua-script-to-insert-100000-random-keys-on-redis
+  - https://www.oschina.net/translate/intro-to-lua-for-redis-programmers?print
 
 ---
 参考资料：
