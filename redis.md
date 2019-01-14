@@ -1,8 +1,7 @@
 virsh start ljm7    ssh test@192.168.122.53
 
-安装：
 
-  `sudo apt-get install redis-server`
+安装： `sudo apt-get install redis-server`
   
   
 运行：
