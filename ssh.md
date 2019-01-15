@@ -1,7 +1,7 @@
 ssh test@210.45.114.192 -p 55566
 
 
-virsh start ljm1    - ssh test@192.168.122.140 
+virsh start ljm1    ssh test@192.168.122.140 
 
 virsh start ljm2    ssh test@192.168.122.236
 
