@@ -8,13 +8,17 @@ ssh test@210.45.114.192 -p 55566
 - virsh start ljm2    
   - ssh test@192.168.122.236
 
-virsh start ljm3    ssh test@192.168.122.219
+- virsh start ljm3    
+  - ssh test@192.168.122.219
 
-virsh start ljm4    ssh test@192.168.122.71
+- virsh start ljm4    
+  - ssh test@192.168.122.71
 
-virsh start ljm5    ssh test@192.168.122.59
+- virsh start ljm5    
+  - ssh test@192.168.122.59
 
-virsh start ljm6    ssh test@192.168.122.17
+- virsh start ljm6    
+  - ssh test@192.168.122.17
 
 ---
 benchmark：
