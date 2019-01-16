@@ -1,4 +1,10 @@
+ if COMPACTION is enabled
+ 
 `sudo cat /sys/kernel/debug/extfrag/unusable_index`
+
+else
+
+参考[Pintu Kumar](http://events17.linuxfoundation.org/sites/events/files/slides/%5BELC-2015%5D-System-wide-Memory-Defragmenter.pdf)p5-p6
 
 
 ---
