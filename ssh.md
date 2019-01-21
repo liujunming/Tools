@@ -23,6 +23,7 @@ ssh test@210.45.114.192 -p 55566
 ---
 benchmark：
 - graph500
+
   /home/test/graph500-master/seq-csr/seq-csr -s 22 -e 16
 ---
 - sysbench-mysql
