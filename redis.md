@@ -1,8 +1,3 @@
-virsh start ljm7   
-ssh test@192.168.122.53
-
-cd /home/test/linux-3.14.69 && make
-
 
 - 安装： 
 
