@@ -1,4 +1,4 @@
-perf stat -e  LLC-load-misses,LLC-store-misses -I 1000 -p pid
+perf kvm  stat -e cycles/ -e cpu/event=0x08,umask=0x10,name=dcycles/ -e cpu/event=0x49,umask=0x10,name=dstorecycles/ -e cpu/event=0x85,umask=0x10,name=icycles/ -I 2000 -p 8875 
 
 
 cd linux/tools/perf
