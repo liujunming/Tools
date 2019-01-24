@@ -43,6 +43,18 @@ benchmark：
   sysbench --test=cpu --cpu-max-prime=50000 run
 ---
 
+python3 fmfi.py
+
+python3 buddy.py
+
+./free.sh
+
+./numa.sh
+
+./stat.sh 1.txt
+
+gcc frag.c -o a
+
 
 
 
