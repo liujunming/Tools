@@ -59,7 +59,7 @@ python3 buddy.py
 
 gcc frag.c -o a
 
-perl -e 'print "a" x 2791728742' > test.txt
+perl -e 'print "a" x 2684354560' > test.txt
 
 
 
