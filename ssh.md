@@ -42,6 +42,16 @@ benchmark：
 
   sysbench --test=cpu --cpu-max-prime=50000 run
 ---
+- filebench
+
+
+su
+
+cd /usr/local/share/filebench/workloads
+
+filebench -f filemicro_rread.f
+
+---
 
 python3 fra_stat.py
 
