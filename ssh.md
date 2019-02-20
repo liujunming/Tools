@@ -51,6 +51,12 @@ benchmark：
   filebench -f filemicro_rread.f
 
 ---
+- SPECjbb
+
+  cd SPECjbb2005-master/ && ./run.sh
+  
+
+---
 
 python3 fra_stat.py
 
