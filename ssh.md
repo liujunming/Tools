@@ -46,9 +46,8 @@ benchmark：
 
   su
 
-  cd /usr/local/share/filebench/workloads
+  cd /usr/local/share/filebench/workloads && filebench -f filemicro_rread.f
 
-  filebench -f filemicro_rread.f
 
 ---
 - SPECjbb
