@@ -49,7 +49,13 @@ benchmark：
   su
 
   cd /usr/local/share/filebench/workloads && filebench -f filemicro_rread.f
+---
 
+- 内核编译
+
+  cd /home/test/linux-4.9.58 && make
+  
+---
 
 ---
 - SPECjbb
