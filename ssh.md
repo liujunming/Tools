@@ -55,7 +55,6 @@ benchmark：
 
   cd /home/test/linux-4.9.58 && make
   
----
 
 ---
 - SPECjbb
