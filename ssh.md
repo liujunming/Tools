@@ -20,6 +20,12 @@ ssh test@210.45.114.192 -p 55566
 - virsh start ljm6    
   - ssh test@192.168.122.17
 
+- virsh start ljm7    
+  - ssh test@192.168.122.227
+
+- virsh start ljm6    
+  - ssh test@192.168.122.63
+
 ---
 benchmark：
 - graph500
