@@ -34,16 +34,12 @@ benchmark：
 
   /home/test/graph500-master/seq-csr/seq-csr -s 22 -e 16
 ---
-- sysbench-mysql
-
-  time sysbench --test=oltp --oltp-test-mode=nontrx --mysql-table-engine=innodb --mysql-user=root --db-driver=mysql --num-threads=8 --max-requests=5000000  --oltp-nontrx-mode=select --mysql-db=sbtest  --oltp-table-size=7000000 --oltp-table-name=sbtest  --mysql-host=127.0.0.1 --mysql-socket=/var/run/mysqld/mysqld.sock --mysql-password=123 run
----
 - liblinear
 
   cd /home/test/liblinear-2.20 && time ./train -s 7 url_combined
  
  ---------------------------------------------------------------------------------------------------------------------------------------
--   MicroIO
+-  MicroIO
 
    vmtouch -t sample.txt
   
