@@ -1,0 +1,2 @@
+- losetup -f -P --show /root/clear-2xxxx-kvm.img
+- make PLATFORM=uefi BOARD=kbl-nuc-i7  uos_kernel sos_kernel 
