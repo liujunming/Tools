@@ -1,4 +1,3 @@
 - losetup -f -P --show /root/clear-2xxxx-kvm.img
 - make PLATFORM=uefi BOARD=kbl-nuc-i7  uos_kernel sos_kernel 
 - cat /sys/kernel/debug/dri/0/i915_display_info
-- 9f2c5467fceea70417c77979ed1a6fafe2b102ab
