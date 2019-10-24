@@ -3,3 +3,4 @@
 - cat /sys/kernel/debug/dri/0/i915_display_info
 - export http_proxy=http://child-prc.intel.com:913
 - export https_proxy=http://child-prc.intel.com:913 
+- /sys/module/i915/parameters
