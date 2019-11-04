@@ -1,5 +1,5 @@
 - losetup -f -P --show /root/clear-2xxxx-kvm.img
-- make PLATFORM=uefi BOARD=kbl-nuc-i7  uos_kernel sos_kernel 
+- make PLATFORM=uefi BOARD=kbl-nuc-i7  uos_kernel sos_kernel  hypervisor
 - cat /sys/kernel/debug/dri/0/i915_display_info
 - export http_proxy=http://child-prc.intel.com:913
 - export https_proxy=http://child-prc.intel.com:913 
