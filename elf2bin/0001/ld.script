@@ -1,0 +1,11 @@
+SECTIONS
+{
+  . = 0x300000;
+  .text : { *(.text) }
+
+  .bin 0x400078:
+  {
+    bin_entry = .;
+    *(.bin)
+  }
+}
