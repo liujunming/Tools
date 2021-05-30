@@ -49,6 +49,9 @@ if [[ "$result" != "" ]]; then
   exit
 fi
 
+echo ${passthru_vpid["gpu"]} > /sys/bus/pci/drivers/pci-stub/new_id
+echo ${passthru_bdf["gpu"]} > /sys/bus/pci/devices/${passthru_bdf["gpu"]}/driver/unbind
+echo ${passthru_bdf["gpu"]} > /sys/bus/pci/drivers/pci-stub/bind
 mem_size=2048M
 #interrupt storm monitor for pass-through devices, params order:
 #threshold/s,probe-period(s),intr-inject-delay-time(ms),delay-duration(ms)
@@ -62,6 +65,7 @@ logger_setting="--logger_setting console,level=4;kmsg,level=3;disk,level=5"
    -s 7,virtio-console,@stdio:stdio_port \
    -s 4,virtio-blk,./laag.img \
    -s 5,virtio-net,tap0 \
+   -s 2,passthru,0/2/0,gpu  \
    --ovmf ./OVMF.fd \
    -s 1:0,lpc \
    $vm_name
